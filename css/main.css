@@ -1,0 +1,210 @@
+/*  font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*---- Default styles---*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*----Header---*/
+.main-header-area {
+    width: 100%;
+    background-color: #1c2431;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+}
+
+/*----Navagiation---*/
+.container#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  margin-left:50px;
+}
+.navbar-brand a img  {
+    display: block;
+}
+
+.navbar-links {
+    margin-left: auto;
+    margin-right:50px;
+}
+
+.navbar-links a {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+/*----Start Intro ---*/
+.intro {
+    width: 100%;
+    background-color: #1c2431;
+    margin: auto;
+}
+
+/*----Call to action top---*/
+.container#cta {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+	text-align: center;
+}
+.intro-imgage   {
+  flex-direction: row;
+  align-self: center;
+}
+
+
+.top-cta {
+	width: 100%;
+	flex-flow: row wrap;
+	
+	
+}
+
+/*----End Intro ---*/
+
+/*----Main Content---*/
+.main {
+  background-color: #181f2a;
+  width: 100%;
+}
+
+.container#main {
+
+}
+
+.feature-wrapper {
+
+}
+
+.feature-inner {
+
+}
+
+.icon-box {
+
+}
+
+.productive {
+}
+
+.img-wrapper {
+}
+
+.img-wrapper img {
+}
+
+.content {
+}
+
+.productive-link {
+
+}
+
+.productive-link span img {
+}
+
+
+.testimonials {
+  background-color: #202A3C;	
+}
+
+.testimonials#testimonials {
+}
+
+#testimonials .card {
+}
+
+.card-inner {
+}
+
+.text {
+}
+
+.profile {
+}
+
+.name {
+}
+
+.profile small {
+}
+
+.bottom-cta {
+  background-color: #181F2A;
+}
+.bottom-cta#bottom-cta {
+
+}
+
+
+footer {
+  background-color: #0B1523;
+}
+.footer-inner {
+}
+.footer-inner .column-1 {
+}
+.footer-inner .column-2 {
+}
+.footer-inner .column-3 {
+}
+.footer-inner .column-4 {
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+}
