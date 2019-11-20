@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+
+@media (max-width: 375px) {
+   
+    #home {
+        margin: 0;
+        padding: 0 0 2.8125rem 0;
+        height:100%;
+        width: 100%;
+    }
+    .main-header-area {
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    #nav-bar {
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-brand {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand {
+        padding-left: 0;
+        margin-left: auto;
+    }
+
+    .nav-brand .brand img {
+        display: block;
+        width: 72%;
+    }
+
+    .nav-item {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-link {
+        box-sizing: content-box;
+        margin: 0;
+        padding: 0 .375rem;
+    }
+    .container-fluid#intro {
+        width: 100%;
+    }
+    .intro-img {
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .intro-illustration {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .intro-wrapper {
+        flex-flow: column wrap;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .intro-text {
+        flex-flow: row nowrap;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding: 0;
+    }
+
+    .intro-h1 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        letter-spacing: normal;
+    }
+    .cta-top {
+        flex-flow: row wrap;
+    }
+
+    .intro-p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    #home::before{
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/bg-curvy-mobile.svg");
+        background-position: right bottom;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-origin: content-box, padding-box;
+        mix-blend-mode: normal;
+        object-fit: inherit;
+    }
+
+
+    .container#bottom-cta {
+        flex-flow: column wrap;
+    }
+
+    .cta-text-wrapper {
+        padding: 2em;
+    }
+
+    .form-inline {
+        width: 80%;
+    }
+
+    .form-inline.cta-form input {
+        height: auto;
+    }
+}
